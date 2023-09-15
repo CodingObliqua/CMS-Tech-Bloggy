@@ -1,0 +1,14 @@
+<!-- views/blogs/show.hbs -->
+{{#extend "layouts/main"}}
+  {{#content "body"}}
+    <h1>{{blogPost.title}}</h1>
+    <p>{{blogPost.content}}</p>
+    <h2>Comments</h2>
+    <ul class="comment-list">
+      {{#each comments}}
+        {{> partials/comment}} <!-- Include the comment partial -->
+      {{/each}}
+    </ul>
+    <a href="/comments/create">Add a Comment</a>
+  {{/content}}
+{{/extend}}

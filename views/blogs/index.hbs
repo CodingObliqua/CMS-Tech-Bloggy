@@ -1,0 +1,16 @@
+<!-- views/blogs/index.hbs -->
+{{#extend "layouts/main"}}
+  {{#content "body"}}
+    <h1>Blog Posts</h1>
+    <ul class="blog-list">
+      {{#each blogPosts}}
+        <li class="blog-post">
+          <h2>{{title}}</h2>
+          <p>{{content}}</p>
+          <a href="/blogs/{{id}}">Read more</a>
+        </li>
+      {{/each}}
+    </ul>
+    <a href="/blogs/create">Create a New Blog Post</a>
+  {{/content}}
+{{/extend}}
