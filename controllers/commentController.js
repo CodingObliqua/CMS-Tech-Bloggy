@@ -1,7 +1,7 @@
 // controllers/commentController.js
 const express = require('express');
 const router = express.Router();
-const Comment = require("../models/comments");
+const Comment = require("../models/comment");
 
 // Define your comment-related routes and controller actions here
 // Display comments for a specific blog post

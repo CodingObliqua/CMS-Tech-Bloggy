@@ -1,6 +1,8 @@
-// models/User.js
+// models/comment.js
 const Sequelize = require('sequelize');
 const sequelize = require('../config');
+const Blog = require('./blog');
+
 
 const Comment = sequelize.define('comment', {
   // Define your comment model fields here
@@ -14,6 +16,7 @@ const Comment = sequelize.define('comment', {
   },
 });
 
-Comment.belongsTo(User); // a Comment belongs to a user
+// Comment.belongsTo(User); // a Comment belongs to a user
+// Comment.belongsTo(Blog);
 
 module.exports = Comment;
