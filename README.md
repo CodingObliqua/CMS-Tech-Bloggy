@@ -1,0 +1,61 @@
+# CMS-Tech-Bloggy
+
+CMS-Tech-Bloggy is a web application for managing and publishing tech blogs. It provides features for creating and managing blog posts, user authentication, and commenting on posts.
+
+## Features
+
+- User registration and authentication.
+- Create, edit, and delete blog posts.
+- Comment on blog posts.
+- View a list of blog posts.
+- View a single blog post with comments.
+- User profiles.
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- Sequelize (SQL ORM)
+- PostgreSQL (or your chosen database)
+- Handlebars (View Engine)
+- Passport.js (for authentication)
+- HTML, CSS, JavaScript
+
+## Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/codingobliqua/CMS-Tech-Bloggy.git
+   ```
+2. Navigate to the project directory:  
+``` bash
+  cd CMS-Tech-Bloggy
+```
+3. Install dependencies:
+   ``` bash
+   npm install
+   ```
+4. Database Setup:
+
+Create a PostgreSQL database for the application.
+Configure the database connection in config/config.json.
+5. Run Migrations:
+``` bash
+npx sequelize db:migrate
+```
+6. Start the application::
+   npm start
+7. Access the application:
+
+Open your web browser and go to http://localhost:3000.
+
+## Usage
+- Register for a new user account or log in.
+- Create, edit, and delete blog posts.
+- View blog posts, comments, and user profiles.
+## Contributing
+Contributions are welcome! Fork the repository, make your changes, and create a pull request.
+
+## License
+This project is licensed under the MIT License.
