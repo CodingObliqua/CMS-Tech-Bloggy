@@ -1,7 +1,9 @@
 # CMS-Tech-Bloggy
 
 CMS-Tech-Bloggy is a web application for managing and publishing tech blogs. It provides features for creating and managing blog posts, user authentication, and commenting on posts.
-
+## Quick Links
+- [GitHub Repository](https://github.com/CodingObliqua/CMS-Tech-Bloggy)
+- [Heroku Deployment](https://damp-scrubland-92481-fe9300a7e276.herokuapp.com)
 ## Features
 
 - User registration and authentication.
